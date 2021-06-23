@@ -36,7 +36,7 @@ test("Should create Customer", () => {
         
     expect(customer.firstName).toBe("John");
     expect(customer.lastName).toBe("Wick");
-    expect(customer.addresses[1].line1).toBe("line1, address[1]");
+    expect(customer.addresses[1].line).toBe("line1, address[1]");
     expect(customer.phone).toBe("+4567483");
     expect(customer.email).toBe("amail@mail.ru");
     expect(customer.notes[1]).toBe("two");
