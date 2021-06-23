@@ -7,6 +7,6 @@ test("Should create Person", () => {
         lastName: "Wick", 
         });
   
-    expect(person.line).toBe("John");
-    expect(person.line2).toBe("Wick");
+    expect(person.firstName).toBe("John");
+    expect(person.lastName).toBe("Wick");
   });
